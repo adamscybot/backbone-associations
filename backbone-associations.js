@@ -22,7 +22,7 @@
         CollectionProto, defaultEvents, AssociatedModel, pathChecker,
         collectionEvents;
 
-    if (typeof exports === "object") 
+    if (typeof exports === "object") {
         _ = require('underscore');
         Backbone = require('backbone');
         exports = module.exports = Backbone;
